@@ -1,0 +1,15 @@
+1.  a library or header file that supports more type of number
+2.  this means different types of data for different purpose u stands for 
+3.  BYTE = 8-bit 
+    DWORD = 32-bit
+    LONG = 32-bit integer
+    WORD = 16-bit
+4.  BM (or 42 and 4d in hexidecimal)
+5.  biSize is the size all of the file and bfSize is just the size of the picture
+6.  the image is reversed
+7.  biBitCount
+8.  not have access to the file or computer memory is full
+9.  because it capture the whole size of of a chunk of memory of BITMAPFILEHEADER,RGBTRIPLE, etc at the second agrument of the function.
+10. 3 (#notetoself: the last % 4 of the equation is needed because in case width*sizeof(RGBTRIPPLE) % 4 = 0
+11. it simply change the location for the pointer in the file
+12. a variable for the fseek function at the current spot of the pointer
